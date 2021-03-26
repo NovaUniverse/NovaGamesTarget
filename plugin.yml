@@ -3,4 +3,4 @@ name: NovaGamesTarget
 description: This plugin is used to get the games to load after the main plugin
 version: 1.0
 api-version: 1.13
-softdepend: [NovaCore, MCF2Base, NovaMain]
+softdepend: [NovaCore, MCF2Base, NovaMain, NovaCoreGameEngine]

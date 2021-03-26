@@ -15,6 +15,16 @@
 		<maven-deploy-plugin-version>3.0.0-M1</maven-deploy-plugin-version>
 	</properties>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>novauniverse</id>
+			<url>https://nexus.novauniverse.net/repository/novauniverse/</url>
+		</snapshotRepository>
+		<repository>
+			<id>novauniverse</id>
+			<url>https://nexus.novauniverse.net/repository/novauniverse/</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<resources>
@@ -59,6 +69,11 @@
 		<repository>
 			<id>spigot-repo</id>
 			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+		</repository>
+
+		<repository>
+			<id>novauniverse-group</id>
+			<url>https://nexus.novauniverse.net/repository/novauniverse-group/</url>
 		</repository>
 	</repositories>
 
